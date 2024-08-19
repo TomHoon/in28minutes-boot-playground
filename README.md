@@ -15,6 +15,7 @@
 </ul>
 
 <hr/>
-<h3>What is Spring Context</h3>
+<h3>What is Spring Context important!</h3>
 <img src="/uploads/springcontext.png"/>
 <img src="/uploads/springcontext2.png"/>
+

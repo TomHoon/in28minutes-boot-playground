@@ -13,3 +13,19 @@ public class App02HelloWorldSpring {
 	}
 }
 
+=======
+		var context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
+		String name = (String)context.getBean("name");
+		
+		System.out.println(name);
+		System.out.println(context.getBean("person"));
+		System.out.println(context.getBean("address2"));
+		
+//		System.out.println(context.getBean(Address.class));
+		
+		System.out.println(context.getBean("person2MethodCall"));
+		
+		System.out.println(context.getBean("person3Parameters"));
+	}
+}
+>>>>>>> main

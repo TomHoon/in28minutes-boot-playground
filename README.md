@@ -77,3 +77,23 @@ IOC에서는 둥둥 떠다니지만 Autowired로 안꽃아 줬기 때문이다.
 ![Alt text](constructorInjection.png)
 
 ** constructor injection은 @Autowired 없어도 됨! 
+
+<hr/>
+<h1> Spring 팀은 Constructor 방식을 선호함</h1>
+<p> 
+	하나의 constructor에서 initializing을 할 수 있기 때문이다.
+</p>
+
+<hr/>
+
+<h1> @Component vs @Bean </h1>
+![Alt text](wholeTableOfVersus.png)
+<p>
+	@Component를 제일 많이 사용한다.<br/>
+	@Bean을 사용할 때는 Business 로직 중 검열하거나 조금 추가되는 기능이 있을 때 사용하면 좋다.
+</p>
+
+![Alt text](whenTouseBean.png)
+
+<hr/>
+<h1> BusinessCalculationService Exercise </h1>

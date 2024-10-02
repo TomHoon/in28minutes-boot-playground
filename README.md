@@ -49,4 +49,30 @@ Lazy
 	<li>Session, Http 등 하나당 객체 하나를 사용한다. </li>
 </ul>
 
+<hr/>
+### Java의 변천사
 
+<ul>
+	<li>J2EE</li>
+	<li>Java EE(5,6,7,8)</li>
+	<li>Jakarta EE(Oracle gave java EE rights to the Eclipse Foundation)</li>
+</ul>
+
+### JSP (Jakarta Server Page)
+### JSTL (Jakarta Standard Tag Library)
+### Jarkarta Persistence (JPA)
+
+### Spring 6 + Spring Boot 3 + Jakarta EE
+
+<hr/>
+## What is CDI in Spring
+
+<img src="./CDI.png"/>
+
+<p>
+	다른 어노테이션으로 사용할 수 있다
+	@Inject => @Autowired
+	@Component => @Named
+</p>
+
+<img src="./subsitute.png"/>

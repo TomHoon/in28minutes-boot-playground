@@ -1,10 +1,10 @@
-package com.in28minutes.learn_spring_framework;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LearnSpringFrameworkApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {

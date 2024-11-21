@@ -11,10 +11,13 @@ public class DemoApplication {
 				HelloWorldConfiguration.class
 			);
 
-		var address = context.getBean("address");
+		var address = context.getBean(Address.class);
 
-		System.out.println(address);
-
+		var person2 = context.getBean("person2MethodCall");
+		
+		var person3 = context.getBean("person3MethodCall");
+		
+		System.out.println(person3);
 	}
 
 }

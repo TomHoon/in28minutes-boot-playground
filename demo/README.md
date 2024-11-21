@@ -6,8 +6,14 @@
 
 <ul>
     <li>Q1. Spring Container vs Spring Context vs IOC Container vs Application Context</li>
+    <li>Spring Container == IOC container</li>
+
     <li>Q2. Java Bean vs Spring bean</li>
     <li>Q3. How can I list all beans managed by Spring Framework</li>
     <li>Q4. What if multiple matching beans are available</li>
     <li>Q5. Spring is managing object and performaing auto-wiring</li>
 </ul>
+
+#### IOC container
+#### >> runtime 때에 작동한다. 
+![alt text](<제목 없음.png>)

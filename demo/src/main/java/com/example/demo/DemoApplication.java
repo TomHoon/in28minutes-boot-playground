@@ -11,9 +11,9 @@ public class DemoApplication {
 				HelloWorldConfiguration.class
 			);
 
-		var name = context.getBean("name");
+		var address = context.getBean("address");
 
-		System.out.println(name);
+		System.out.println(address);
 
 	}
 

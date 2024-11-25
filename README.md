@@ -10,3 +10,7 @@
         should declare beans in context.xml
     </li>
 </ul>
+
+[sec05 - 52.spring initializr]
+#### Spring Web만 dependency 추가해 Maven Project 생성
+
